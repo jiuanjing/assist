@@ -10,6 +10,10 @@ import java.util.List;
  */
 public interface UserDao {
 
+    /**
+     * 查询所有用户
+     * @return list<user>
+     */
     List<User> queryAll();
     User queryById(int id);
 
